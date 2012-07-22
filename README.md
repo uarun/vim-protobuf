@@ -12,13 +12,16 @@ The syntax highlighting code was shamelessly copied from [Google Protocol Buffer
 
 ## Installation
 
-Just like how you would install any other vim bundle using pathogen.
+* With [Pathogen][vim pathogen]
 
-If you are not using pathogen (really you don't !), you can manually copy the files as follows:
+    cd ~/.vim/bundle
+    git clone git://github.com/uarun/vim-protobuf.git
 
-    cd vim-protobuf
-    cp syntax/proto.vim   ~/.vim/syntax/
-    cp ftdetect/proto.vim ~/.vim/ftdetect/
+* With [Vundle][vim vundle]
 
-[vim pathogen]: http://www.vim.org/scripts/script.php?script_id=2332
-[proto syntax]: http://protobuf.googlecode.com/svn/tags/2.4.1/editors/proto.vim
+    " .vimrc
+    Bundle 'uarun/vim-protobuf'
+
+[vim pathogen] : http://www.vim.org/scripts/script.php?script_id=2332
+[vim vundle]   : https://github.com/gmarik/vundle
+[proto syntax] : http://protobuf.googlecode.com/svn/tags/2.4.1/editors/proto.vim
