@@ -22,6 +22,6 @@ The syntax highlighting code was shamelessly copied from [Google Protocol Buffer
     " .vimrc
     Bundle 'uarun/vim-protobuf'
 
-[vim pathogen] : http://www.vim.org/scripts/script.php?script_id=2332
-[vim vundle]   : https://github.com/gmarik/vundle
-[proto syntax] : http://protobuf.googlecode.com/svn/tags/2.4.1/editors/proto.vim
+[vim pathogen]: http://www.vim.org/scripts/script.php?script_id=2332
+[vim vundle]: https://github.com/gmarik/vundle
+[proto syntax]: http://protobuf.googlecode.com/svn/tags/2.4.1/editors/proto.vim
