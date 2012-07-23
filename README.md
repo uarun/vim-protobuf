@@ -14,13 +14,13 @@ The syntax highlighting code was shamelessly copied from [Google Protocol Buffer
 
 * With [Pathogen][vim pathogen]
 
-    cd ~/.vim/bundle
-    git clone git://github.com/uarun/vim-protobuf.git
+        cd ~/.vim/bundle
+        git clone git://github.com/uarun/vim-protobuf.git
 
 * With [Vundle][vim vundle]
 
-    " .vimrc
-    Bundle 'uarun/vim-protobuf'
+        " .vimrc
+        Bundle 'uarun/vim-protobuf'
 
 [vim pathogen]: http://www.vim.org/scripts/script.php?script_id=2332
 [vim vundle]: https://github.com/gmarik/vundle
